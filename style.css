@@ -3,6 +3,13 @@ body{
   display: block;
   margin: auto;
   max-width: 90vw;
+  border-style: solid;
+  border-color: ivory;
+}
+header{
+  background-color: blue;
+  width: 100%;
+  color: white;
 }
 hr{
   width: 34rem;
@@ -11,17 +18,28 @@ hr{
   margin-top: 2.2rem;
   margin-bottom: 0;
 }
+article{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 article h2{
   text-align: center;
   font-size: 2.7rem;
   font-weight: lighter;
-  margin-top: 0.2rem;
 }
 article p{
   text-align: left;
-  margin-left: 23rem;
-  margin-right: 23rem;
 }
-.container{
-  display: inline;
+.img-article{
+  position: absolute;
+  margin-left: 43rem;
+  margin-top: -25rem;
+}
+footer{
+  width: 100%;
+  height: 5rem;
+  background-color: blue;
+  margin-top: 2.2rem;
+  margin-bottom: 0;
 }
